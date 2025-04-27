@@ -1,0 +1,467 @@
+body {
+    background-color: rgb(3, 3, 14);
+}
+
+.div1 {
+    width: 400px; 
+    height: 930px;
+    background-color: rgb(1, 1, 48);
+    /* float: right; */
+    position: fixed;
+    /* justify-content: right; */
+    right: 0;
+    border-radius: 10px;
+}
+
+.div2 {
+    background-color: rgb(38, 0, 255);
+    width: 400px;
+    height: 75px;
+    position: fixed;
+    right: 0px;
+    top: 15px;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: iranblack;
+    font-size: 20;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div3 {
+    background-color: rgb(38, 0, 255);
+    width: 400px;
+    height: 75px;
+    position: fixed;
+    right: 0px;
+    top: 105px;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: iranblack;
+    font-size: 20;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div4 {
+    background-color: rgb(38, 0, 255);
+    width: 400px;
+    height: 75px;
+    position: fixed;
+    right: 0px;
+    top: 195px;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: iranblack;
+    font-size: 20;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div5 {
+    background-color: rgb(38, 0, 255);
+    width: 400px;
+    height: 75px;
+    position: fixed;
+    right: 0px;
+    top: 285px;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: iranblack;
+    font-size: 20;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div2:hover, .div3:hover, .div4:hover, .div5:hover {
+    background-color: rgb(18, 0, 122);
+    text-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 100px rgb(65, 65, 129);
+}
+
+.li1 {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    width: 125px;
+    height: 400px;
+    position: absolute;
+    display: none;
+    right: 400px;
+    top: 15px;
+    list-style-type: none;
+    /* opacity: 0px;
+    visibility: hidden; */
+    transition: all 0.5s ease;
+    margin-top: 0px;
+}
+
+.div2:hover .li1{
+    display: block;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* opacity: 1;
+    visibility: visible; */
+    box-shadow: 0px 0px 10px white;
+}
+
+.li2 {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    width: 125px;
+    height: 400px;
+    position: absolute;
+    display: none;
+    right: 400px;
+    top: 15px;
+    list-style-type: none;
+    transition: all 0.5s ease;
+}
+
+.div3:hover .li2{
+    display: block;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* opacity: 1;
+    visibility: visible; */
+    box-shadow: 0px 0px 10px white;
+}
+
+.li3 {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    width: 125px;
+    height: 400px;
+    position: absolute;
+    display: none;
+    right: 400px;
+    top: 15px;
+    transition: all 0.5s ease;
+    list-style-type: none;
+}
+
+.div4:hover .li3{
+    display: block;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.li4 {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    width: 125px;
+    height: 400px;
+    position: absolute;
+    display: none;
+    right: 400px;
+    top: 15px;
+    list-style-type: none;
+    transition: all 0.5s ease;
+}
+
+.div5:hover .li4{
+    display: block;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+ul {
+    transition: all 0.5s;
+}
+
+.r1 {
+    background-color: rgb(6, 0, 58);
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div5:hover .li4 .r1{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+}
+
+.r2 {
+    background-color: rgb(6, 0, 58);
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div5:hover .li4 .r2 {
+    position: absolute;
+    left: 0%;
+    top: 40px;
+}
+
+.r3 {
+    background-color: rgb(6, 0, 58);
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div5:hover .li4 .r3 {
+    position: absolute;
+    left: 0%;
+    top: 80px;
+}
+
+.r3:hover, .r2:hover, .r1:hover{
+    background-color: rgb(30, 27, 61)
+}
+
+.div6 {
+    background-color: rgb(41, 35, 128);
+    width: 1500px;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(255, 255, 255, 0.3);
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 60;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 40px rgb(0, 0, 0);
+    position: fixed;
+}
+
+.div7 {
+    width: 1400px;
+    height: 25px;
+    background-color: rgb(130, 125, 160);
+    position: fixed;
+    top: 15px;
+    left: 60px;
+    border-radius: 10px;
+}
+
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+    left: 10px;
+    position: absolute;
+    top: 3;
+}
+
+input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.img1 {
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    left: 250;
+    top: 250;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gray;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div9{
+    color: white;
+    top: 520;
+    left: 295;
+    position: absolute;
+    font-size: 25px;
+    font-family: iranblack;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
+
+.img1:hover {
+    box-shadow: 0px 0px 30px rgb(159, 152, 255);
+    transform: scale(1.2);
+}
+
+
+.img2 {
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    left: 1050;
+    top: 250;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gray;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div11{
+    color: white;
+    top: 520;
+    left: 1095;
+    position: absolute;
+    font-size: 25px;
+    font-family: iranblack;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
+
+.img2:hover {
+    box-shadow: 0px 0px 30px rgb(159, 152, 255);
+    transform: scale(1.2);
+}
+
+
+
+
+.img3 {
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    left: 1050;
+    top: 750;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gray;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div13{
+    color: white;
+    top: 1020;
+    left: 1095;
+    position: absolute;
+    font-size: 25px;
+    font-family: iranblack;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
+
+.img3:hover {
+    box-shadow: 0px 0px 30px rgb(159, 152, 255);
+    transform: scale(1.2);
+}
+
+
+
+
+.img4 {
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    left: 250;
+    top: 750;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gray;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div15{
+    color: white;
+    top: 1020;
+    left: 295;
+    position: absolute;
+    font-size: 25px;
+    font-family: iranblack;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
+
+.img4:hover {
+    box-shadow: 0px 0px 30px rgb(159, 152, 255);
+    transform: scale(1.2);
+}
+
+
+
+
+.img5 {
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    left: 250;
+    top: 1300;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gray;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div17{
+    color: white;
+    top: 1570;
+    left: 290;
+    position: absolute;
+    font-size: 25px;
+    font-family: iranblack;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
+
+.img5:hover {
+    box-shadow: 0px 0px 30px rgb(159, 152, 255);
+    transform: scale(1.2);
+}
+
+
+
+
+.img6 {
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    left: 1050;
+    top: 1300;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gray;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.div19{
+    color: white;
+    top: 1570;
+    left: 1095;
+    position: absolute;
+    font-size: 25px;
+    font-family: iranblack;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+}
+
+.img6:hover {
+    box-shadow: 0px 0px 30px rgb(159, 152, 255);
+    transform: scale(1.2);
+}
